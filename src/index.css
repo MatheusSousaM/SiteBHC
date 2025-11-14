@@ -58,3 +58,24 @@ html {
   /* Se você estava usando bg="dark" na Navbar, isso garante a sua cor */
   background-color: #294134 !important; 
 }
+
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    /* Garante que o menu aberto ocupe 100% da largura do contêiner */
+    width: 100%; 
+  }
+  
+  /* Alinha todos os links e o botão à esquerda dentro do menu */
+  .navbar-collapse .nav-link {
+    text-align: left;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Corrige o layout do botão dentro do link no mobile */
+  .navbar-collapse .btn {
+    width: auto; 
+    margin-left: 0;
+  }
+}
